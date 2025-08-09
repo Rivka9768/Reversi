@@ -265,7 +265,7 @@ function goHomePage(){
 }
 
 function logOut(){
-  self.location="entrance.html";
+  self.location="/entrance.html";
   window.localStorage.removeItem("currentBlackPlayer");
   window.localStorage.removeItem("currentWhitePlayer");
 }
